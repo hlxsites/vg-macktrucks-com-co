@@ -9,6 +9,7 @@ import {
 // Core Web Vitals RUM collection
 sampleRUM('cwv');
 
+// COOKIE ACCEPTANCE CHECKING
 if (isPerformanceAllowed()) {
   loadGoogleTagManager();
 }
